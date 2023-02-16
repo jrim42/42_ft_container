@@ -376,6 +376,7 @@ namespace ft
                     const ft::vector<T, Allocator>& y)
     {
         return (x == y || x < y);
+        // return !(y < x);
     }
 
     template <typename T, class Allocator>
@@ -383,6 +384,7 @@ namespace ft
                     const ft::vector<T, Allocator>& y)
     {
         return !(x <= y);
+        // return (y < x);
     }
 
     template <typename T, class Allocator>
@@ -390,6 +392,7 @@ namespace ft
                     const ft::vector<T, Allocator>& y)
     {
         return (x == y || x > y);
+        // return !(x < y);
     }
 
     // swap

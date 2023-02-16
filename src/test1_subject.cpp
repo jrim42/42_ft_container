@@ -1,18 +1,5 @@
 #include "../include/ft_container.hpp"
 
-#if 0 //CREATE A REAL STL EXAMPLE
-	#include <map>
-	#include <stack>
-	#include <vector>
-	namespace ft = std;
-    #define TYPE "std"
-#else
-	#include "../include/map.hpp"
-	#include "../include/stack.hpp"
-	#include "../include/vector.hpp"
-    #define TYPE "ft"
-#endif
-
 template<typename T>
 class MutantStack : public ft::stack<T>
 {

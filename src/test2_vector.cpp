@@ -1,29 +1,6 @@
 #include "../include/ft_container.hpp"
 #include <sys/time.h>
 
-const std::string GREEN = "\x1B[1;32m";
-const std::string REDD = "\x1B[1;31m";
-const std::string YELLOW = "\x1B[1;33m";
-const std::string WHITE = "\x1B[1;39m";
-const std::string RESET = "\033[0m";
-
-using std::cout;
-using std::endl;
-
-#if 0 //CREATE A REAL STL EXAMPLE
-	#include <map>
-	#include <stack>
-	#include <vector>
-	#define NAMESPACE std
-    #define TYPE "std"
-#else
-	#include "../include/map.hpp"
-	#include "../include/stack.hpp"
-	#include "../include/vector.hpp"
-	#define NAMESPACE ft
-    #define TYPE "ft"
-#endif
-
 void	test2_vector(void)
 {
 	cout << REDD + "==========" + "constructor" + "==========" + RESET << endl;

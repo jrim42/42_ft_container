@@ -1,18 +1,5 @@
 #include "../include/ft_container.hpp"
 
-#if 1 //CREATE A REAL STL EXAMPLE
-	#include <map>
-	#include <stack>
-	#include <vector>
-	namespace ft = std;
-    #define TYPE "std"
-#else
-	#include "../include/map.hpp"
-	#include "../include/stack.hpp"
-	#include "../include/vector.hpp"
-    #define TYPE "ft"
-#endif
-
 int main(int argc, char** argv) 
 {
 	if (argc != 2)
